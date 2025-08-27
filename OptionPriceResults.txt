@@ -1,0 +1,23 @@
+Heston model: Down-and-in Asian call option
+===========================================
+Parameter estimates:
+kappa = 0.011451
+theta = 0.024387
+eta   = 3.244924
+rho   = -0.648884
+V0    = 0.054486
+
+Option price  = 0.003801
+MSE = 0.001012
+Std. error: 
+kappa = 0.003618
+theta = 0.002893
+eta = 0.254991
+rho = 0.083022
+V0 = 0.033204
+
+===========================================
+
+Pricing error computation in pricingError file.
+
+
