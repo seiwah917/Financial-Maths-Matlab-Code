@@ -1,6 +1,6 @@
 ## Heston Model Calibration & Exotic Option Pricing (MATLAB)
 
-This repository implements the Heston stochastic volatility model end-to-end:
+This repository implements the Heston stochastic volatility model end-to-end:  
 (1) Calibrate parameters to a market implied volatility (IV) surface and  
 (2) Price an exotic down-and-in Asian average-strike call by Monte Carlo under the calibrated model.
 
