@@ -41,7 +41,7 @@ Exotic Pricing
 
 Monte Carlo with Milstein (variance) + log-Euler (price), antithetic variates, barrier monitoring, and truncation to keep variance non-negative.
 
-📂 Repo Structure
+**Repo Structure**
 Main.m                          % Main script: calibration + standard errors + exotic pricing
 pricingError.m                  % Calibration objective: IV(surface)_market vs IV(surface)_model (MSE or error vector)
 CallPricingFFT.m                % FFT pricer for European calls under Heston
@@ -133,7 +133,7 @@ T, and IV surface.
 
 jacobianest.m – Finite-difference Jacobian utility used to compute parameter standard errors (if not provided by your environment).
 
-▶️ How to Run
+**How to Run**
 
 Clone the repo and open the folder in MATLAB.
 
@@ -154,7 +154,7 @@ Down-and-in Asian average-strike call price (Monte Carlo)
 
 To export a text report, un-comment the “Export to .txt” block inside Main.m.
 
-🧰 Methods (one-liners)
+**Methods (one-liners)**
 
 FFT pricing: invert Heston’s characteristic function to get call prices across strikes quickly.
 
