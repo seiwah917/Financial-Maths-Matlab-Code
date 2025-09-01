@@ -2,7 +2,7 @@
 
 This repository implements the Heston stochastic volatility model end-to-end:  
 
-(1) Calibrate parameters to a market implied volatility (IV) surface and  
+(1) Calibrate parameters to a market implied volatility (IV) surface    
 (2) Price an exotic down-and-in Asian average-strike call by Monte Carlo under the calibrated model.
 
 ## Project Overview
